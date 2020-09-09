@@ -19,18 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7544093-01e5-450b-882a-dde93425d14e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="e7544093-01e5-450b-882a-dde93425d14e" name="Default Changelist" comment="update：README">
+      <change afterPath="$PROJECT_DIR$/src/mock/cate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/demo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hE7AEWLwoKn0WCvRDvUT6n8UrD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,8 +68,10 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="npm run dev" />
       <command value="npm run local" />
+      <command value="open fe-wap-yidianling" />
+      <command value="open fe-pc-lingxi" />
+      <command value="npm run dev" />
     </option>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -98,7 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599564251894</updated>
       <workItem from="1599564252970" duration="8948000" />
-      <workItem from="1599614519363" duration="2692000" />
+      <workItem from="1599614519363" duration="4214000" />
+      <workItem from="1599618803645" duration="9422000" />
     </task>
     <task id="LOCAL-00001" summary="update:升级elementui，新增demo路由">
       <created>1599614416890</created>
@@ -137,6 +151,21 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,30 +182,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2620" y="336" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599612404889" />
-    <state x="2478" y="17" key="CommitChangelistDialog2" timestamp="1599616209992">
+    <state x="2478" y="17" key="CommitChangelistDialog2" timestamp="1599632162293">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2478" y="17" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599616209992" />
-    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599614961605">
+    <state x="2478" y="17" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599632162293" />
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1599630687475">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599614961605" />
-    <state width="1921" height="714" key="GridCell.Tab.0.bottom" timestamp="1599617103119">
+    <state x="2012" y="92" width="1736" height="896" key="DiffContextDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630687475" />
+    <state width="1921" height="662" key="GridCell.Tab.0.bottom" timestamp="1599630081702">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="714" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599617103119" />
-    <state width="1921" height="714" key="GridCell.Tab.0.center" timestamp="1599617103119">
+    <state width="1921" height="662" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630081702" />
+    <state width="1921" height="662" key="GridCell.Tab.0.center" timestamp="1599630081702">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="714" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599617103119" />
-    <state width="1921" height="714" key="GridCell.Tab.0.left" timestamp="1599617103119">
+    <state width="1921" height="662" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630081702" />
+    <state width="1921" height="662" key="GridCell.Tab.0.left" timestamp="1599630081702">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="714" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599617103119" />
-    <state width="1921" height="714" key="GridCell.Tab.0.right" timestamp="1599617103119">
+    <state width="1921" height="662" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630081702" />
+    <state width="1921" height="662" key="GridCell.Tab.0.right" timestamp="1599630081702">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1921" height="714" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599617103119" />
+    <state width="1921" height="662" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630081702" />
     <state x="2687" y="158" key="RollbackChangesDialog" timestamp="1599613879767">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -189,17 +218,17 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2012" y="92" width="1736" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599568801023" />
-    <state x="2583" y="256" width="594" height="568" key="find.popup" timestamp="1599613468441">
+    <state x="2583" y="256" width="594" height="568" key="find.popup" timestamp="1599630327649">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2583" y="256" width="594" height="568" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599613468441" />
-    <state x="2536" y="250" width="672" height="677" key="run.anything.popup" timestamp="1599617091889">
+    <state x="2583" y="256" width="594" height="568" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630327649" />
+    <state x="2536" y="250" width="672" height="677" key="run.anything.popup" timestamp="1599629925071">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2536" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599617091889" />
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599612544613">
+    <state x="2536" y="250" width="672" height="677" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599629925071" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599630321998">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599612544613" />
+    <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599630321998" />
   </component>
 </project>
